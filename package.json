@@ -1,26 +1,18 @@
 {
-  "name": "gboty",
-  "version": "1.0.0",
-  "description": "",
-  "main": "node index.js",
+  "name": "sneyra",
+  "version": "2.0.1",
+  "description": "Extension of Skyra - Music-only bot.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shadow0o0/gboty.git"
-  },
-  "author": "GarZ",
+  "author": "kyraNET",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shadow0o0/gboty/issues"
-  },
-  "homepage": "https://github.com/shadow0o0/gboty#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "github:discordjs/discord.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-klasa": "github:dirigeants/klasa-lint"
   }
 }
